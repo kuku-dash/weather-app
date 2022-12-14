@@ -1,0 +1,15 @@
+.container {
+  margin-top: 50px;
+  width: 60%;
+  border: 5px solid aliceblue;
+}
+.row {
+  padding: 10px 10px 10px 20px;
+}
+h1 {
+  font-weight: 300;
+}
+body {
+  background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+  padding: 200px;
+}
