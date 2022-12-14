@@ -1,22 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-	<script
+    <script
       src="https://kit.fontawesome.com/986749980b.js"
       crossorigin="anonymous"
     ></script>
-</head>
-<body>
-	
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-2">Abuja</div>
+        <div class="col-2">Lagos</div>
+        <div class="col-2">Calabar</div>
+        <div class="col-2">Port-Harcourt</div>
+        <div class="col-2">Kano</div>
+        <br />
+        <br />
+        <form id="search-form">
+          <input type="text" placeholder="Enter a city" id="search-box" />
+
+          <input type="submit" value="Search" id="submit-button" />
+        </form>
+        <h1 id="cityname">Abuja</h1>
+        <h6>Thursday 21:02</h6>
+        <br />
+        <span id="description"></span>
+        <br />
+        <br />
+        <div class="row">
+          <div class="col-6">
+            <i class="fa-solid fa-smog"></i>
+            <span class="temperature" id="temp">26</span>
+
+            <span>
+              <a href="#" id="celsius">°C</a> |
+              <a href="#" id="fahreint">°F</a></span
+            >
+            <span class="temperature" id="fahr">10</span>
+          </div>
+          <div class="col-6">
+            <br />
+            Humidity: <span id="humidity"></span>
+            <br />
+            Wind: <span id="wind"> </span>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="row">
+          <div class="col-2">
+            Thurs
+            <br />
+            <i class="fa-solid fa-cloud" style="color: #fdd14f"></i>
+            <br />
+            26°
+          </div>
+
+          <div class="col-2">
+            Fri
+            <br />
+            <i class="fa-solid fa-cloud" style="color: #fdd14f"></i> <br />
+            34°
+          </div>
+          <div class="col-2">
+            Sat
+            <br />
+            <i class="fa-solid fa-cloud" style="color: #fdd14f"></i>
+            <br />
+            32°
+          </div>
+          <div class="col-2">
+            Sun
+            <br />
+            <i class="fa-solid fa-cloud" style="color: #fdd14f"></i>
+            <br />
+            31°
+          </div>
+          <div class="col-2">
+            Mon
+            <br />
+            <i class="fa-solid fa-cloud" style="color: #fdd14f"></i>
+            <br />
+            32°
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
